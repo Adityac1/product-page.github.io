@@ -1,0 +1,151 @@
+body{
+    margin:0;
+  }
+  /* #header{
+    width:100%;
+    background-color:black;
+    height:80px;
+  } */
+  #header{
+    width:100%;
+    box-sizing:border-box;
+  }
+  #logo-section{
+    width:100px;
+    height:80px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .logo{
+    width:100%;
+  }
+  
+  #product-page{
+    width:100%;
+  }
+  #product-details-section{
+    margin-top:70px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  #product-image-page{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #image-section{
+    width:400px;
+    margin-left: 200px;
+    position: relative;
+  }
+  #product-image{
+    width:100%;
+    position: relative;
+  }
+  #product-details{
+    padding-left:20px;
+  }
+  #product-title{
+    font-size:50px;
+  }
+  #product-desc{
+    width:70%;
+  }
+  #colors{
+    margin-top:50px;
+  }
+  
+  .color{
+    padding: 10px 30px;
+    margin: 0 10px;
+    border-radius:6px;
+  }
+  #red{
+    background-color:#ca3d22;
+  }
+  #blue{
+    background-color:#565681;
+  }
+  #purple{
+    background-color:#8a5362;
+  }
+  #black{
+    background-color:#23211f;
+  }
+  #pink{
+    background-color:#e9c7be;
+  }
+  
+  .features-item{
+    margin-left:20px;
+    padding:5px 20px;
+    border-radius:6px;
+    background-color:#D1D1D1;
+    cursor:pointer;
+  }
+  #btn{
+    margin-left:20px;
+    margin-top:30px;
+    padding:10px 20px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    background-color:orange;
+    font-weight:bold;
+    cursor:pointer;
+    outline: none; 
+}
+  #btn:hover{
+  /*   border-bottom:10px solid orange; */
+    background-color:white;
+  }
+  #btn-text{
+    margin:0;
+    padding:0;
+  }
+  #btn-text:hover{
+    border-bottom:2px solid orange;
+  }
+#time-div{
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    /* display: none; */
+    
+
+}
+
+  .timing{
+      font-size: 28px;
+      color: whitesmoke;
+  }
+  #m{
+      color: whitesmoke;
+  }
+
+
+  #heartdiv{
+      /* border: 1px solid; */
+      position: absolute;
+      top: 160px;
+    left: 180px;
+    color: white;
+    display: none;
+  }
+
+  .heart {
+	font-size: 30px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+#rate{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
